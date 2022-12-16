@@ -10,8 +10,6 @@ header {
 }
 
 .container {
-    /* display: flex;
-    flex-wrap: nowrap; */
     width: 1200px;
     margin: auto;
     padding: 0 15px;
@@ -33,7 +31,7 @@ header {
     text-decoration: none;
 }
 
-.logo-blue {
+.logo__blue {
     color: #2196F3;
 }
 
@@ -69,7 +67,7 @@ header {
     }
 }
 
-.nav-active a {
+.nav__active a {
     color: #2196F3;
     position: relative;
     &:after {
@@ -107,8 +105,8 @@ header {
         text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .head-address a:focus,
-    .head-address a:hover {
+    & a:focus,
+    & a:hover {
         color: #2196F3;
     }
     & li:nth-child(1) {
